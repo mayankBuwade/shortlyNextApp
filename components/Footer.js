@@ -15,17 +15,17 @@ const Footer = () => {
           </h3>
         </div>
         <a>
-          <Image className="image" src={fb} width={'15px'} height={'15px'}/>
+          <Image className="image" alt="fb" src={fb} width={'15px'} height={'15px'}/>
         </a>
         <a>
-          <Image src={tw} width={'15px'} height={'15px'} className="image"/>
+          <Image src={tw} alt="tw" width={'15px'} height={'15px'} className="image"/>
         </a>
         <a>
-          <Image src={pt} width={'15px'} height={'15px'} 
+          <Image src={pt} alt="pt" width={'15px'} height={'15px'} 
           className="image" />
         </a>
         <a>
-          <Image src={ig} width={'15px'} height={'15px'} 
+          <Image src={ig} alt="ig" width={'15px'} height={'15px'} 
           className="image"
           />
         </a>
@@ -57,17 +57,17 @@ const Footer = () => {
       </Nav>
       <SocialNavTwo>
         <a>
-          <Image className="image" src={fb} width={'15px'} height={'15px'}/>
+          <Image className="image" alt="fb" src={fb} width={'15px'} height={'15px'}/>
         </a>
         <a>
-          <Image src={tw} width={'15px'} height={'15px'} className="image"/>
+          <Image src={tw} alt="tw" width={'15px'} height={'15px'} className="image"/>
         </a>
         <a>
-          <Image src={pt} width={'15px'} height={'15px'} 
+          <Image src={pt} alt="pt" width={'15px'} height={'15px'} 
           className="image" />
         </a>
         <a>
-          <Image src={ig} width={'15px'} height={'15px'} 
+          <Image src={ig} alt="ig" width={'15px'} height={'15px'} 
           className="image"
           />
         </a>

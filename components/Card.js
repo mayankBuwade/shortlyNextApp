@@ -6,11 +6,11 @@ function Card() {
   return (
     <Div>
       <div>
-        <Image src={logo} width={"25px"} height={"25px"} />
+        <Image alt="logo" src={logo} width={"25px"} height={"25px"} />
       </div>
       <h1>Brand Recognition</h1>
       <p>
-        Boost your brand recognition with each click. Generic links don't mean a
+        Boost your brand recognition with each click. Generic links don&apos;t mean a
         thing. Branded links helps instil confidence in your content.
       </p>
     </Div>
