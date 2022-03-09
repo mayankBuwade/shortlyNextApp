@@ -1,5 +1,6 @@
 import Nav, { Div, Link, Wrapper } from "../styles/styleNavBar";
 import Image from "next/Image";
+import menu from '../public/menu.png'
 import theme from "../colors/theme";
 
 function NavBar() {
@@ -16,7 +17,8 @@ function NavBar() {
           <Image
             alt="menu"
             width={"25px"}
-            src="https://img.icons8.com/color/48/000000/menu--v1.png"
+            height={"25px"}
+            src={menu}
           />
         </button>
         <div>

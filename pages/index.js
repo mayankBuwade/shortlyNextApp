@@ -16,8 +16,8 @@ function Home() {
     setQuery(query);
     setNewQuery(`https://api.shrtco.de/v2/shorten?url=${query}`);
     const response = await fetch(newQuery, { method: "post" });
-    const { result } = await response.json();
     console.log(result);
+    const { result } = await response.json();
     const data = await result.short_link;
     console.log(data);
     setShortLink(data);
